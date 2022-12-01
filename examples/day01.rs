@@ -9,10 +9,9 @@ fn parse(input_str: &str) -> Vec<usize> {
                 .map(|line| line.parse::<usize>().expect("Could not parse number"))
                 .sum()
         })
+        // Sort largest to smallest
         .sorted_unstable_by(|a, b| Ord::cmp(b, a))
         .collect()
-
-    // output.iter().map(|rations| rations.iter().sum()).collect()
 }
 
 fn part1(input: &[usize]) -> usize {
