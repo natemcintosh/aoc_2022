@@ -11,3 +11,7 @@ itertools = "0.10.5"
 [[example]]
 name = "day01"
 test = true
+
+[[example]]
+name = "day02"
+test = true
