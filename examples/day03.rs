@@ -48,7 +48,7 @@ fn main() {
 
     // Read the input file for day 1
     let input_str =
-        std::fs::read_to_string("input/day03.txt").expect("Failed to read day 1 input file");
+        std::fs::read_to_string("input/day03.txt").expect("Failed to read day 3 input file");
 
     // Parse the input into a vector of numbers
     let input = parse_input(&input_str);
