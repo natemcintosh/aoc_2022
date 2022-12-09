@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 itertools = "0.10.5"
+ndarray = "0.15.6"
 
 [[example]]
 name = "day01"
@@ -30,4 +31,12 @@ test = true
 
 [[example]]
 name = "day06"
+test = true
+
+[[example]]
+name = "day07"
+test = true
+
+[[example]]
+name = "day08"
 test = true
