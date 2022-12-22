@@ -8,6 +8,8 @@ edition = "2021"
 [dependencies]
 itertools = "0.10.5"
 ndarray = "0.15.6"
+regex = "1.7.0"
+lazy_static = "1.4.0"
 
 [[example]]
 name = "day01"
@@ -39,4 +41,16 @@ test = true
 
 [[example]]
 name = "day08"
+test = true
+
+[[example]]
+name = "day09"
+test = true
+
+[[example]]
+name = "day14"
+test = true
+
+[[example]]
+name = "day15"
 test = true
